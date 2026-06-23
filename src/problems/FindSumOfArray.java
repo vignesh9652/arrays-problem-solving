@@ -1,3 +1,5 @@
+package problems;
+
 public class FindSumOfArray {
     static void main(String[] args) {
         int[] nums  = {10,40,5};

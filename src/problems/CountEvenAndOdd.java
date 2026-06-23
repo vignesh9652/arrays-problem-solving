@@ -1,3 +1,5 @@
+package problems;
+
 public class CountEvenAndOdd {
     public static void main(String[] args) {
       int[] nums = {1,3,2,4,5,78};

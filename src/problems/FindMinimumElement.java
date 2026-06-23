@@ -1,3 +1,5 @@
+package problems;
+
 public class FindMinimumElement {
     static void main(String[] args) {
         int[] nums = {10,5,3,8,1};

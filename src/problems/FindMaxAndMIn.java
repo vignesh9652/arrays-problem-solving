@@ -1,3 +1,5 @@
+package problems;
+
 public class FindMaxAndMIn {
     public static void main(String[] args) {
      int[] nums = {12,3,4,2,7};

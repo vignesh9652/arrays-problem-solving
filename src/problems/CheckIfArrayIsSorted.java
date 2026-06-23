@@ -1,3 +1,5 @@
+package problems;
+
 public class CheckIfArrayIsSorted {
     public static void main(String[] args) {
         int[] nums = {7,6,5,4,3};

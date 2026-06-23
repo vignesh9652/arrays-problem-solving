@@ -1,24 +1,26 @@
-public class ElementFrequency {
+package problems;
+
+public class FrequencyOfElements {
     public static void main(String[] args) {
-        int[] nums = {2,2,2,3,3,2,3,4,4};
+        int[] nums = {2,2,2,2,3,2,3,4,2,3,4};
         countFrequency(nums);
     }
 
     public static void countFrequency(int[] nums){
         for (int i = 0; i < nums.length; i++) {
-            boolean hasCompleted = false;
-            for (int k = 0; k < i; k++) {
-                if (nums[i] == nums[k]) {
-                    hasCompleted = true;
+            boolean hasVisited = false;
+            for (int k = 0; k <= i-1; k++) {
+                if (nums[i] == nums[k]){
+                    hasVisited = true;
                     break;
                 }
             }
-            if (hasCompleted){
+            if (hasVisited){
                 continue;
             }
             int count = 1;
             for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j]){
+                if(nums[i] == nums[j]){
                     count++;
                 }
             }

@@ -1,3 +1,5 @@
+package problems;
+
 public class SecondSmallestNumber {
     public static void main(String[] args) {
         int[] nums = {10,3,2,4,7,8,1};

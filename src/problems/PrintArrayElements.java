@@ -1,3 +1,5 @@
+package problems;
+
 public class PrintArrayElements {
     public static void main(String[] args) {
         int[] nums = {12,13,14,15};

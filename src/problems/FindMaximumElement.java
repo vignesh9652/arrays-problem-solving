@@ -1,3 +1,5 @@
+package problems;
+
 public class FindMaximumElement {
     static void main(String[] args) {
         int[] nums = {1,4,590,3,90};
